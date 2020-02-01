@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 1100px;
 
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
     width: 450px;
   }
 
@@ -21,7 +21,7 @@ export const PostContent = styled.ul`
   flex-direction: row;
   width: 600px;
 
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
     width: 450px;
   }
 
